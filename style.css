@@ -117,3 +117,67 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
         }
+
+        .resumebg2 {
+            background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 1400% 1400%;
+            animation: rainbowAnimation 13s ease infinite;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            color: white;
+        }
+
+        @keyframes rainbowAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+          .rainbow-button {
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 6px;
+            background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+            background-size: 1400% 1400%;
+            animation: rainbowAnimation 13s ease infinite;
+            outline: 3px
+        }
+
+        @keyframes rainbowAnimation {
+            0% {
+            background-position: 0% 50%;
+            }
+            50% {
+            background-position: 100% 50%;
+            }
+            100% {
+            background-position: 0% 50%;
+            }
+        }
+
+        .playbutton {
+            background: linear-gradient(to right, #ffafbd, #ffc3a0, #f78c9d);
+            font-weight: bold;
+            border: 3px solid white;
+            color: white;
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }       
+
+        .playbutton:hover {
+             background: linear-gradient(to right, #f78c9d, #ffc3a0, #ffafbd);
+        }
+        
